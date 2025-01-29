@@ -1,0 +1,174 @@
+/* Contact Section */
+#contact {
+    padding: 60px 20px;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  #contact h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: start;
+  }
+  
+  .contact-form, .contact-info {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-form h2, .contact-info h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    
+  
+  }
+  
+  .form-group label {
+    display: flex;
+    margin-bottom: 5PX;
+    color: #555;
+  }
+  
+
+  .form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: none; /* Remove border */
+    outline: none; /* Remove focus outline */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background for better contrast */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: all 0.3s ease; /* Smooth transition for hover/focus effects */
+    font-size: 16px; /* Adjust text size */
+    color: #333; /* Text color */
+}
+
+.form-group input:focus, 
+.form-group textarea:focus {
+    background-color: #fff; /* Highlight background on focus */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.form-group textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 100px; /* Set a minimum height */
+}
+
+/* Add hover effects */
+.form-group input:hover, 
+.form-group textarea:hover {
+    background-color: #f0f0f0; /* Slightly darker background */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15); /* Subtle hover shadow */
+}
+
+  
+
+
+  
+  .form-group textarea {
+    resize: none;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #c49b66;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+  }
+  
+ 
+  
+  .contact-info p {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .social-links {
+    margin-top: 20px;
+  }
+  
+  .social-link {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    color: #c49b66;
+    text-decoration: none;
+  }
+  
+  .social-link:hover {
+    color:#c49b66;
+  }
+  
+  /* Footer */
+  footer {
+    background: #000000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-container p {
+    margin-bottom: 10px;
+  }
+  
+  .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-nav li {
+    margin: 0 10px;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    color: #c49b66;
+    font-size: 14px;
+  }
+  
+  .footer-nav a:hover {
+    text-decoration: underline;
+  }
+  
+
+
+
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none; /* Hidden by default */
+  }
+  
